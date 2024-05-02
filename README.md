@@ -3,7 +3,7 @@
 
 
 ## Descrição do Projeto
-O projeto consiste em um sistema CRUD básico que permite a criação, leitura, atualização e exclusão de registros em um banco de dados SQLite. Utilizamos o Python para a lógica de negócio e a manipulação do banco de dados, enquanto o front-end foi construído utilizando HTML, CSS e a biblioteca Bootstrap para facilitar o design responsivo e moderno da interface.
+O projeto consiste em um sistema CRUD básico que permite a criação, leitura, atualização e exclusão de registros em um banco de dados SQLite. Utilizamos o framework Django para facilitar o desenvolvimento da aplicação web, proporcionando uma estrutura organizada e recursos poderosos para lidar com operações CRUD.
 
 ## Funcionalidades
 - Criação de Registros: Permite adicionar novos registros ao banco de dados.
@@ -16,16 +16,21 @@ O projeto consiste em um sistema CRUD básico que permite a criação, leitura, 
 - Python,
 - Django,
 - SQLite,
-- HTML/CSS,javascript
+- HTML/CSS/javascript
 - Bootstrap.
 
 ## Como Executar o Projeto
-1. Certifique-se de ter o Python instalado em seu sistema.
+1. Certifique-se de ter o Python e o Django instalados em seu sistema.
 2. Clone este repositório ou baixe o código-fonte para sua máquina.
-3. Navegue até o diretório do projeto no terminal ou prompt de comando.
-4. Instale as dependências necessárias (caso haja alguma) utilizando pip install -r requirements.txt.
-5. Execute o arquivo app.py para iniciar o servidor local.
-6. Abra seu navegador e acesse http://localhost:8000 para utilizar o sistema CRUD.
+3. Abra o terminal ou prompt de comando e navegue até o diretório do projeto: cd /caminho/do/seu/projeto
+4. Crie um ambiente virtual (opcional) e ative-o:
+   - python -m venv venv (Cria um ambiente virtual chamado venv)
+   - source venv/bin/activate (No Linux/Mac)
+   - venv\Scripts\activate (No Windows)
+5. Instale as dependências do projeto: pip install -r requirements.txt
+6. Execute as migrações para criar o banco de dados SQLite: python manage.py migrate
+7. Inicie o servidor de desenvolvimento do Django: python manage.py runserver
+8. Abra seu navegador e acesse http://127.0.0.1:8000/ para visualizar a aplicação.
 
 ### Contribuição
 Contribuições são bem-vindas! Sinta-se à vontade para abrir uma issue ou enviar um pull request com melhorias, correções ou novas funcionalidades para o projeto.
