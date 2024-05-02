@@ -14,8 +14,9 @@ O projeto consiste em um sistema CRUD básico que permite a criação, leitura, 
 
 ## Tecnologias Utilizadas
 - Python,
+- Django,
 - SQLite,
-- HTML/CSS,
+- HTML/CSS,javascript
 - Bootstrap.
 
 ## Como Executar o Projeto
